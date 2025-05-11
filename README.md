@@ -1,8 +1,8 @@
 
 
-## 📌 Task: I want a java program on binary search
+## 📌 Task: I want a binary search program in java
 
 ### 🧠 Explanation
-This Java program implements a binary search algorithm. The `binarySearch` method takes a sorted array and a target value as arguments. It initializes two pointers, `left` and `right`, to the start and end of the array, respectively. It then enters a loop where it calculates the middle index and compares the middle element with the target. If they match, it returns the index; if the target is greater, it narrows the search to the right half, and if it's smaller, it narrows to the left half. If the target is not found, it returns -1. The `main` method demonstrates how to use the `binarySearch` method with an example sorted array and target value.
+This Java program implements a binary search algorithm. It defines a `binarySearch` method that takes a sorted array and a target value as inputs. The method initializes two pointers, `left` and `right`, to represent the current search bounds. It then enters a loop that continues until the `left` pointer exceeds the `right` pointer. Within the loop, it calculates the middle index and checks if the middle element is the target. If it is, the index is returned. If the target is greater than the middle element, the search continues in the right half of the array; otherwise, it continues in the left half. If the target is not found, the method returns -1. The `main` method demonstrates how to use the `binarySearch` method and prints the result.
 
 ### 📄 Code File: `binary_search.java`
