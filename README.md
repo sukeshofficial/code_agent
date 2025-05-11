@@ -1,8 +1,8 @@
 
 
-## 📌 Task: I want a python program to find the factorial of the given number
+## 📌 Task: I want a java program on binary search
 
 ### 🧠 Explanation
-This Python program defines a function `factorial` that calculates the factorial of a given non-negative integer `n`. It checks if `n` is negative, in which case it returns a message stating that factorials are not defined for negative numbers. If `n` is 0 or 1, it returns 1, as the factorial of both is 1. For other positive integers, it uses a loop to multiply all integers from 2 to `n` to compute the factorial. The program also includes an example usage where it prompts the user to enter a number and then prints the factorial of that number.
+This Java program implements a binary search algorithm. The `binarySearch` method takes a sorted array and a target value as arguments. It initializes two pointers, `left` and `right`, to the start and end of the array, respectively. It then enters a loop where it calculates the middle index and compares the middle element with the target. If they match, it returns the index; if the target is greater, it narrows the search to the right half, and if it's smaller, it narrows to the left half. If the target is not found, it returns -1. The `main` method demonstrates how to use the `binarySearch` method with an example sorted array and target value.
 
-### 📄 Code File: `factorial.py`
+### 📄 Code File: `binary_search.java`
