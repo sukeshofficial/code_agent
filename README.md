@@ -1,8 +1,8 @@
 
 
-## 📌 Task: I want a program to find numbers using binary search in java
+## 📌 Task: I want a program to find a given number using binary search use the class name "BinarySearch", in java
 
 ### 🧠 Explanation
-This Java program implements a binary search algorithm to find a specific number in a sorted array. The `binarySearch` method takes an array and a target number as input. It initializes two pointers, `left` and `right`, to the start and end of the array. It then enters a loop where it calculates the middle index and compares the middle element with the target. If they match, it returns the index. If the target is greater than the middle element, it narrows the search to the right half; if smaller, it narrows to the left half. If the target is not found after the loop, it returns -1. The `main` method demonstrates how to use this function and prints the result.
+This Java program defines a class named `BinarySearch` that includes a method `binarySearch` to find a target number in a sorted array using the binary search algorithm. The method takes an integer array and the target number as parameters. It initializes two pointers, `left` and `right`, to represent the current search bounds. The algorithm repeatedly calculates the middle index and compares the middle element with the target. If the target is found, it returns the index; if not, it adjusts the search bounds accordingly. The `main` method demonstrates how to use the `binarySearch` method with a sample sorted array and a target number, printing the result to the console.
 
-### 📄 Code File: `binary_search.java`
+### 📄 Code File: `BinarySearch.java`
